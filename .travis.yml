@@ -3,6 +3,6 @@ python:
 - '2.7'
 sudo: false
 install:
-- pip install nose mock pygithub pyyaml python-dateutil
+- pip install nose mock pygithub pyyaml python-dateutil requests
 script:
 - python setup.py test
